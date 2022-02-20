@@ -1,8 +1,5 @@
 FROM node:16-alpine
 
-ENV MONGO_DB_USERNAME=admin \
-    MONGO_DB_PWD=password
-
 # Create app directory
 WORKDIR /app
 
