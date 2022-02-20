@@ -1,0 +1,16 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "My backend app",
+    "author": "Muhammad Tayyab tyb9900@gmail.com",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "cors": "^2.8.5",
+        "express": "^4.16.1",
+        "mongodb": "^4.4.0"
+    }
+}
